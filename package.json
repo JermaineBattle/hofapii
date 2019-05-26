@@ -14,18 +14,21 @@
     "RESTful",
     "access"
   ],
+  "engines": {
+    "node": "8.11.1"
+  },
   "author": "Jermaine Battle",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^6.9.0",
+    "body-parser": "^1.19.0",
     "express": "^4.16.3",
     "file-system": "^2.2.2",
     "mongoose": "^5.5.2",
-    "multer": "^6.9.0",
-    "node-restful": "^0.2.6"
+    "multer": "^1.4.1",
+    
   },
   "devDependencies": {
-    "morgan": "^8.11.2",
+    "morgan": "^1.19.0",
     "nodemon": "^1.18.3"
   }
 }
